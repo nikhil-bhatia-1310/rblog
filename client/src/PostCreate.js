@@ -1,5 +1,7 @@
+/** Use React, useState, axios*/
 import React, {useState} from 'react';
 import axios from 'axios';
+
 
 export default() => {
     const[title, setTitle] = useState('');
@@ -13,6 +15,7 @@ export default() => {
         setTitle('');
     };
 
+    /** form the return of the PostCreate component */
     return (
         <div>
             <form onSubmit={onSubmit}>

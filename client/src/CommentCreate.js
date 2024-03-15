@@ -1,3 +1,4 @@
+/** Use React, useState, axios */
 import React, {useState} from 'react';
 import axios from 'axios';
 
@@ -12,6 +13,7 @@ export default({postId}) => {
 
         setContent('');
     };
+    
     
     return <div>
         <form onSubmit={onSubmit}>

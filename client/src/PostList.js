@@ -1,3 +1,4 @@
+/** Use React, useState, useEffect, axios and also CommentCreate, CommentList components */
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import CommentCreate from './CommentCreate';
@@ -11,10 +12,15 @@ export default() => {
 
         setPosts(res.data);
     };
+
+    //you tell React that your component needs to do something after render. 
+    //React will remember the function you passed (we’ll refer to it as our “effect”), 
+    //and call it later after performing the DOM updates
     useEffect(()=> {
         fetchPosts();
     }, []);
 
+    
     const renderedPosts = Object.values(posts).map(post => {
         return <div className='card' style={{ width: '30', marginBottom: '20px'}}
         key={post.id}
