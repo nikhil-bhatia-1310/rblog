@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "3c45052b-f918-4635-956a-5146b0979dfd",
+		"name": "REACT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3915874",
+		"_collection_link": "https://bold-meadow-219665.postman.co/workspace/STUDY~f2f4485a-55b3-432c-a5fc-843f7c1d8cf4/collection/3915874-3c45052b-f918-4635-956a-5146b0979dfd?action=share&source=collection_link&creator=3915874"
+	},
+	"item": [
+		{
+			"name": "localhost:4000/posts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:4000/posts",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/posts",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"First Post\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:4000/posts",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4001/comments",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:4001/posts/123/comments",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"posts",
+						"123",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4001/comments",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"content\":\"I am a conent\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:4001/posts/123/comments",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"posts",
+						"123",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
