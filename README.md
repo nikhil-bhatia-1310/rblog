@@ -4,3 +4,5 @@
 3. mkdir posts, cd posts
 4. npm init -y
 5. npm install express cors axios nodemon
+6. cd event-bus, npm init -y
+7. npm install express axios nodemon
