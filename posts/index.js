@@ -25,7 +25,7 @@ app.post('/posts', async (req, res) => {
     
     //sets title value from req body
     const {title} = req.body;
-
+    
     //sets the value of posts for id with id and title
     posts[id] = {
         id, title

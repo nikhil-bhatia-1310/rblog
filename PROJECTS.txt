@@ -1,0 +1,6 @@
+Posts					comments					query					moderation					Event Bus
+4000					4001						4002					4003						4005
+C:\NIKHIL\STUDY\PROJECTS\rblog\posts	C:\NIKHIL\STUDY\PROJECTS\rblog\comments		C:\NIKHIL\STUDY\PROJECTS\rblog\comments	C:\NIKHIL\STUDY\PROJECTS\rblog\moderation	C:\NIKHIL\STUDY\PROJECTS\rblog\event-bus
+
+Client
+C:\NIKHIL\STUDY\PROJECTS\rblog\client
