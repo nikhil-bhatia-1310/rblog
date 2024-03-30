@@ -6,3 +6,8 @@
 5. npm install express cors axios nodemon
 6. cd event-bus, npm init -y
 7. npm install express axios nodemon
+8. cd posts
+docker build .
+successfully build <image id>
+docker run <image id>
+
